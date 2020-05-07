@@ -1,0 +1,285 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+body {
+margin: 0px;
+font-family:;
+}
+
+.whatspp{
+	width: 20px;
+	height: 20px 
+}
+
+
+.span1{
+	color: white;
+}
+
+;
+.btn1{ 
+
+	border: solid 1px green;
+	color: green;
+	padding:4px 10px;
+	font-size: 12px
+	
+		
+}
+
+li{
+	
+	 list-style: none;
+	     
+	
+}
+.a1{
+		 
+		 text-decoration: none;
+		 padding: 15px;
+		 
+	 }
+
+
+.btn3{
+	float:;
+	border: solid 1px green;
+	color: green;
+	padding:6px 10px;
+	font-size: 11px
+} 
+
+
+
+/*	@media only screen and (max-width: 990px) {
+			.dropdown:hover .dropdown-content {display:block; margin-top:5px ;margin-left: 50px; position: relative} 
+} */
+		
+		@media only screen and (min-width: 995px) {
+			.dropdown:hover .dropdown-content {display:block;}
+			.dropdown-content{margin-top: 24px!important;}
+		}
+		
+		@media only screen and (max-width: 990px){
+		
+		   .dropdown-content {display:block; margin-top:2px!important;margin-bottom: 2px!important; margin-left: 50px!important; position: relative!important; }
+			.navbar-brand{margin-right: px ;margin-left: 10px!important ;}
+			.oflow{overflow: scroll!important; height: 250px!important}
+			
+		
+		}
+           @media only screen and (min-width: 1200px){
+		
+			   .navbar-brand{margin-right: 200px!important ;margin-left: 30px!important ;}
+			   
+		
+		}
+@media only screen and (max-width: 325px){
+		
+			   .navbar-brand{margin-right: px!important ;margin-left: 10px!important ;}
+	.menu-icon{margin-left: -30px!important}
+		
+		}
+
+.gallery img:hover{
+	border: solid 5px white;
+}
+
+	
+	.btnn{
+	 background-color:#316DC3;
+    border-radius: 30px;
+	color: white;
+	border: none;
+    font-size: 13px;
+    font-weight: 600;
+     padding: 8px 16px;
+}
+	
+		.dropbtn {
+	
+  background-color: #F7F8FA;
+    border-radius:30px;
+	border: none;
+	color: #333333;
+    font-size: 13px;
+    font-weight: 500;
+     padding: 8px 16px;
+
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width:160px!important;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin-top: 24px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #333333;
+    font-size: 12px;
+    font-weight: 500;
+  padding: 7px 16px;
+  text-decoration: none;
+  display: block;
+	
+
+	
+	
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {color: white;
+background-color: #316DC3; text-decoration:none;padding-left: 25px }
+
+/* Show the dropdown menu on hover 
+
+.dropdown:hover .dropdown-content {display:block;} */
+		
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {color:white;
+background-color: #316DC3}
+			
+
+		
+
+
+.dropdown-content:before {
+         content: "";
+        display: block;
+        height: 27px;
+        position: absolute;
+        top: -27px;
+        width: 100%;
+    }
+		
+/*
+
+.header {
+  padding: 5px 16px;
+  background: #F7F8FA;
+  color: #f1f1f1;
+} 
+*/
+
+	
+	.boxx
+	{background-color:#FFFFFF ;
+	background-image: ;
+	background-size: cover;
+	height: 180px;
+	margin-bottom: 30px;
+	font-size: 18px;
+	text-align: center;
+	padding: 30px;
+	box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+	}
+.box-h4{
+	margin-top: 22px;
+	color: #316DC3;
+	font-size: 20px;
+	font-family:;
+	font-weight: 600;
+	
+	
+	
+}
+.box-h3{
+	font-size: 26px;
+	
+	padding: 10px;
+	font-family: ;
+	color: #316DC3;
+		font-weight: 600;
+	
+	
+}
+.rectangle{
+	background-color: #F7F8FA;
+	font-size: 18px;
+	margin-bottom: 20px;
+	padding: 15px;
+		font-family: ;
+	color: #316DC3;
+		font-weight: 600;
+	
+border: 1px solid #eeeeee !important;
+
+}
+.gallery
+	{background-color: ;
+	background-image:;
+	background-size: ;
+	height:;
+	margin: px;
+	font-size: ;
+	text-align:;
+	padding-left: 0px !important;
+		padding-right: 0px !important;
+	border: 1px solid white;
+
+}
+.flist{
+	float: left;
+	
+}
+.dot {
+	height: 35px;
+	width: 35px;
+	background-color:#316DC3;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 15px;
+	padding-left: 11px;
+	padding-top: 8px;
+}
+.endfooter{
+	background-color: #316DC3;
+	color: white;
+	height: 50px;
+	padding-top:px ;
+	font-size: 12px;
+
+	
+}
+
+#myBtn {
+ 
+  background-color:transparent; /* Set a background color 
+  color: white ; /* Text color */
+
+	   background: rgba(0, 0, 0, 0.1);
+    bottom: 15px;
+    display: none;
+    height: 20px;
+    padding-bottom: 50px;
+    position: fixed;
+    right: 15px;
+    text-align: center;
+    text-decoration: none;
+    width: 40px;
+    z-index: 99999;
+	border: none;
+	font-size: 40px
+}
+	
+	
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+   
+	
